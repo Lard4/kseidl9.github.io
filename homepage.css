@@ -51,6 +51,43 @@ h3{
     height: 40px;
 }
 
+.footer {
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+}
+.footer-header{
+    color: black;
+    background-color: lightgray;
+}
+
+.accordion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f1f2;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 img{
     width: 90%;
     height: 40%;

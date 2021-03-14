@@ -29,6 +29,31 @@
     
         <input class="red-submit" type="submit" value="Look up Availability">
     </form>
-    
-    
+    <button class="accordion">Contact Us </button>
+    <div class="panel" style="text-align: left; margin-left: 8%;">
+        <h4>Toyota Brand Engagement Center</h4>
+        <a href="mailto: recalls@toyota.com">recalls@toyota.com</a>
+
+    </div>
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+              window.scrollTo(0,document.body.scrollHeight);
+            }
+          });
+        }
+    </script>
+
+
 </body>
