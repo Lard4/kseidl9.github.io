@@ -31,6 +31,14 @@ input{
     margin-bottom: 20px;
 }
 
+.red-submit{
+    margin-top: 15px;
+    background-color: red;
+    border-color: red;
+    color: white;
+    height: 55px !important;
+    font-size: 17px;
+}
 
 h3{
     padding-top: 10px;
